@@ -4,9 +4,8 @@
  rolling 2 dice. The programs takes a randomly generated array list and manipulates it accordingly. This program deals with arraylists 
  containing integers only.
  */
-package arrayproblems;
+package arrayproblems_int;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 
