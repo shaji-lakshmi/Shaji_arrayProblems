@@ -1,2 +1,2 @@
 # Shaji_arrayProblems
-This program contains methods that take in an arraylist and manipulates the array or derives information from the elements of the array.   I chose to create random elements to populate the array with numbers ranging from 1 to 12. Look at this array as results of someone  rolling 2 dice. The programs takes a randomly generated array list and manipulates it accordingly. This program deals with arraylists containing integers only.
+This project looks at multiple types of arrays and writes in different methods accordingly to derive information and manipulate an array. The projects are according labeled for convenience. 
