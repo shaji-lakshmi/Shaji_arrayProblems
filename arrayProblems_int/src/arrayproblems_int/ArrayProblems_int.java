@@ -15,6 +15,7 @@ import java.util.Random;
  */
 public class ArrayProblems_int {
 
+    // Create an array list of random number ranging from 1 to 12
     public static void generateRandomResults(ArrayList<Integer> rollResults) {
         int roll;
         
@@ -28,6 +29,7 @@ public class ArrayProblems_int {
         System.out.println(rollResults);
     }
     
+    // Find how many numbers in the array list are divisible by 4
     public static int divisibleByFour(ArrayList<Integer> rollResults){
         
         Integer [] newarr = null; 
@@ -43,6 +45,7 @@ public class ArrayProblems_int {
         return count;
     }
     
+    //What is the sum of all numbers in the array list 
     public static int sumArray(ArrayList<Integer> rollResults){
          Integer [] newarr = null; 
         int sum =0; 
@@ -54,6 +57,7 @@ public class ArrayProblems_int {
             return sum;
     }
     
+    // What is the percentage of times that a 12 occurs in 50 rolls?
     public static double probTwelve(ArrayList<Integer> rollResults){
         Integer [] newarr = null; 
         int count =0; 
@@ -69,6 +73,7 @@ public class ArrayProblems_int {
             return prob; 
     }
     
+    // If there is an occurance of 11 in the list, remove it and print the array without 11
     public static void removeFromList(ArrayList<Integer> rollResults){
         Integer [] newarr = null; 
         int removeInt =11; 
@@ -86,6 +91,7 @@ public class ArrayProblems_int {
             System.out.println(rollResults);
     }
     
+    // At what indexes is there a 6?
     public static void findIndex(ArrayList<Integer> rollResults){
         ArrayList<Integer> listOfIndexes = new ArrayList<Integer>();
         Integer [] newarr = null; 
