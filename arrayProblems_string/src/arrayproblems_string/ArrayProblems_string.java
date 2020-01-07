@@ -1,5 +1,6 @@
 /*
-This program manipulates an array of strings.
+This program manipulates an array of strings. Methods are written to reverse, print, replace and derive information from 
+a preset array of strings. 
  */
 package arrayproblems_string;
 
